@@ -23,7 +23,7 @@ An AI tool that compares a resume against a job description, gives a match score
 5. Displays score and suggestions
 
 ## Live Demo
-[Add your Streamlit Cloud link here]
+[Try the Resume Screener](https://resume-screener-fl9mggq8t6kvww6xn6pvbf.streamlit.app/)
 
 ## Run Locally
 ```bash
