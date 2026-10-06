@@ -1,9 +1,11 @@
 import os
+import streamlit as st
 from dotenv import load_dotenv
 from groq import Groq
 
+
 load_dotenv()  # reads the .env file
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 def get_skill_gap(resume_text, jd_text):
     """Asks the LLM to list missing skills and suggestions."""
