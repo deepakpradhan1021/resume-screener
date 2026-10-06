@@ -1,0 +1,21 @@
+Job Title: Machine Learning Intern
+
+We are looking for a Machine Learning Intern to support our data science team.
+
+Requirements:
+- Good knowledge of Python
+- Experience with Pandas and NumPy
+- Understanding of Machine Learning concepts
+- Familiarity with Scikit-learn
+- Ability to clean and analyze datasets
+- Knowledge of data visualization using Matplotlib or Seaborn
+- Basic understanding of regression and classification models
+- Experience with Git and GitHub is preferred
+- Knowledge of Streamlit is a plus
+
+Responsibilities:
+- Clean and preprocess data
+- Train and evaluate machine learning models
+- Create data visualizations
+- Support development of ML projects
+- Document project results

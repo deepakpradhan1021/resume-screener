@@ -1,0 +1,19 @@
+Job Title: Frontend Web Developer Intern
+
+We are looking for a Frontend Developer Intern to build modern and responsive websites.
+
+Requirements:
+- Strong knowledge of HTML, CSS, and JavaScript
+- Experience with React.js
+- Knowledge of responsive web design
+- Understanding of UI/UX principles
+- Familiarity with Bootstrap or Tailwind CSS
+- Ability to work with REST APIs
+- Knowledge of Figma is preferred
+
+Responsibilities:
+- Build website pages using React.js
+- Create responsive user interfaces
+- Fix frontend bugs
+- Work with designers to improve UI/UX
+- Test website compatibility across devices

@@ -1,0 +1,19 @@
+Job Title: Data Analyst Intern
+
+We are looking for a Data Analyst Intern to work with business data and reports.
+
+Requirements:
+- Knowledge of Python and SQL
+- Experience with Excel and Power BI
+- Ability to analyze data and create reports
+- Understanding of data cleaning
+- Good communication skills
+- Familiarity with Pandas and data visualization
+- Knowledge of statistics is preferred
+
+Responsibilities:
+- Collect and clean business data
+- Create dashboards and reports
+- Find trends in customer and sales data
+- Share insights with business teams
+- Support data-driven decisions
