@@ -88,7 +88,7 @@ def ai_suggestions(resume, job, missing):
             max_tokens=500,
         )
         suggestions = result.choices[0].message.content or ""
-return suggestions.strip() or "No suggestions were returned. Please try again."
+        return suggestions.strip() or "No suggestions were returned. Please try again."
     except Exception:
         return "AI suggestions could not be generated. Check your Groq API key and Streamlit logs."
 with st.sidebar:
