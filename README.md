@@ -20,6 +20,12 @@
 Try the deployed web app right in your browser:
 👉 **[Launch AI Resume Screener](https://resume-screener-fl9mggq8t6kvww6xn6pvbf.streamlit.app/)**
 
+<br>
+
+<div align="center">
+  <img src="screenshot.png" alt="App Screenshot" width="850">
+</div>
+
 ---
 
 ## 📖 About This Project
@@ -103,6 +109,31 @@ I built the **AI Resume Screener** to explore how modern NLP techniques can solv
 
 ---
 
+## 📂 Project Structure
+
+```text
+resume-screener/
+│
+├── sample_data/             # Sample inputs for testing
+│   ├── sample_resume.pdf    # Sample PDF resume
+│   ├── jd_close_match.txt   # Highly aligned sample job description
+│   ├── jd_partial_match.txt # Partially aligned sample job description
+│   └── jd_unrelated.txt     # Unrelated sample job description
+├── tests/                   # Automated unit test suite
+│   ├── test_skills.py       # Unit tests for skill extraction & gap detection
+│   └── test_extract.py      # Unit tests for PDF parsing & boundary handling
+├── app.py                   # Main Streamlit web application
+├── extract.py               # PDF text extraction utility
+├── match.py                 # Semantic similarity embedding module
+├── analyze.py               # Groq LLM suggestion module
+├── screenshot.png           # Application preview screenshot
+├── requirements.txt         # Project dependencies
+├── .gitignore               # Git ignore rules (secrets, venv, caches)
+└── README.md                # Project documentation
+```
+
+---
+
 ## 💻 How to Run Locally
 
 If you'd like to test or run this project on your own computer:
@@ -129,14 +160,19 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Configure Groq API Key (Optional for AI suggestions)
+### 4. Run automated tests
+```bash
+python -m unittest discover -s tests
+```
+
+### 5. Configure Groq API Key (Optional for AI suggestions)
 Create a `.streamlit/secrets.toml` file in the project root:
 ```toml
 GROQ_API_KEY = "your_groq_api_key_here"
 ```
 *(Make sure `.streamlit/` remains in your `.gitignore` so your API key stays private).*
 
-### 5. Launch the application
+### 6. Launch the application
 ```bash
 streamlit run app.py
 ```

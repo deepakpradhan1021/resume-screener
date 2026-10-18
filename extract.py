@@ -12,5 +12,7 @@ def extract_text_from_pdf(pdf_path):
 
 # Test it
 if __name__ == "__main__":
-    resume_text = extract_text_from_pdf("sample_resume.pdf")
+    import os
+    sample_path = os.path.join(os.path.dirname(__file__), "sample_data", "sample_resume.pdf") if not os.path.exists("sample_resume.pdf") else "sample_resume.pdf"
+    resume_text = extract_text_from_pdf(sample_path)
     print(resume_text[:500])  # print first 500 characters to check

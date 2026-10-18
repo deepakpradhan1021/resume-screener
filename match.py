@@ -12,9 +12,11 @@ def get_match_score(resume_text, jd_text):
 
 # Test it
 if __name__ == "__main__":
+    import os
     from extract import extract_text_from_pdf
 
-    resume = extract_text_from_pdf("sample_resume.pdf")
+    sample_path = os.path.join(os.path.dirname(__file__), "sample_data", "sample_resume.pdf") if not os.path.exists("sample_resume.pdf") else "sample_resume.pdf"
+    resume = extract_text_from_pdf(sample_path)
     jd = """We are looking for a Python developer with experience in 
     machine learning, data analysis, and SQL. Knowledge of Flask or 
     Django is a plus."""
