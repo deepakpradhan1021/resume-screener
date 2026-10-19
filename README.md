@@ -7,9 +7,10 @@
 [![Streamlit](https://img.shields.io/badge/Web%20App-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![HuggingFace](https://img.shields.io/badge/Embeddings-Sentence--Transformers-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 [![Groq](https://img.shields.io/badge/LLM%20Inference-Groq%20API-orange?logo=groq&logoColor=white)](https://groq.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Project-Live%20Demo-brightgreen)](https://resume-screener-fl9mggq8t6kvww6xn6pvbf.streamlit.app/)
 
-[Live Demo](https://resume-screener-fl9mggq8t6kvww6xn6pvbf.streamlit.app/) • [About This Project](#-about-this-project) • [Key Features](#-key-features) • [How It Works](#-how-it-works) • [Run Locally](#-how-to-run-locally) • [What I Learned](#-key-learnings--takeaways) • [Future Improvements](#-future-improvements)
+[Live Demo](https://resume-screener-fl9mggq8t6kvww6xn6pvbf.streamlit.app/) • [About This Project](#-about-this-project) • [Key Features](#-key-features) • [How It Works](#-how-it-works) • [Run Locally](#-how-to-run-locally) • [License](#-license) • [What I Learned](#-key-learnings--takeaways)
 
 </div>
 
@@ -204,6 +205,10 @@ Building this project taught me several foundational concepts in Applied AI and 
 - [ ] Expand skill dictionary with regex-based synonym grouping and automated taxonomy extraction.
 - [ ] Support multiple resume comparisons against a single job description.
 - [ ] Add PDF export option alongside the current plain text report.
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
